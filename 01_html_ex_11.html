@@ -30,7 +30,7 @@
 
     <span>
       <input type="radio" id="radio-no" name="mail" />
-      <label for="radio-no">아니오<label>
+      <label for="radio-no">아니오</label>
     </span>
   </div>
 
@@ -73,14 +73,11 @@
 
 <h1>textarea요소와 select요소</h1>
 
-<fieldset>
-  <legend>여러 줄 글상자와 목록상자</legend>
 
 <div>
   <label for="reply">답글</label>
-</div>
   <textarea id="reply"></textarea>
-
+</div>
 
 <div>
   <label>과목선택</label>
@@ -92,7 +89,16 @@
   </select>
 </div>
 
-</fieldset>
+
+
+<h1>button 요소</h1>
+<div>
+  <!-- CSS 표현, 활용이 input 버튼 보다 더 자유로움-->
+  <input type="button" value="버튼" />
+  <button type="button">버튼</button>
+  <button type="reset">취소</button>
+  <button type="submit">전송</button>
+</div>
 
 </body>
 </html>
