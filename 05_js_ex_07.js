@@ -28,3 +28,11 @@ for( var i=2; i<10; i++ ){
 }
 
 console.log(1+''+3);
+
+
+
+var hap = [1,2,3,4,5];
+
+for( var a=0; a<5; a++ ){
+  console.log( hap[a]+1 );
+}
